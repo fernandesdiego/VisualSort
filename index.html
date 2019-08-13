@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SORTING</title>
+        <meta charset="UTF-8">
+        <meta lang="pt-br">
+        <script src="js/sorting.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 style="text-align:left;">List</h1>
+        <input id="list" type="text" placeholder="Ex:1,3,5,7,9,11"/>
+        <button onclick="insert()">Insert</button>
+        <p> <> </p>
+        
+        <div class="container">            
+            <h1 id="title1">BubbleSort</h1>
+            <div class="subcontainer">
+                <div id="sort1" class="tilecontainer"></div>
+            </div>
+
+            <h1 id="title2">SelectionSort</h1>
+            <div class="subcontainer">
+                <div id="sort2" class="tilecontainer"></div>
+            </div>
+
+            <h1>MergeSort</h1>
+            <div id="sort3" class="subcontainer">
+                <div id="sort3" class="tilecontainer"></div>
+            </div>
+
+            <h1>WhateverSort</h1>
+            <div id="sort4" class="subcontainer">
+                <div id="sort4" class="tilecontainer"></div>
+            </div>
+
+        </div>
+        
+        <button onclick="sort()">Sort</button>
+
+    </body>
+</html>
